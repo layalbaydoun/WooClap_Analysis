@@ -47,4 +47,13 @@ Reads the Parquet file produced by Exercise 1 and generates `out/exercise_2_dist
 - **Answers per Month** — scatter plot confirming that October and November concentrate the highest answer volumes, likely corresponding to the academic semester peak.
 - **Answers by Day of Week (Kiviat/radar chart)** — shows answers are heavily concentrated on weekdays (Mon–Thu), with a sharp drop on weekends, as expected for classroom activity.
 
+### Exercise 2 - Method to Identify Sessions (Part 2)
+
+1. Sessions can be identified by measuring the time gap between answers.
+2. Compute time difference between answers
+3. When the gap exceeds a threshold (e.g., 30 minutes), start a new session
+
+**This approach allows segmentation of answers into teaching sessions.**
+
 ## AI Disclosure
+AI tools were used as support to review parts of the code and to better understand certain methodologies (such as data partitioning and session identification). All implementations and analyses were validated and fully understood before submission.

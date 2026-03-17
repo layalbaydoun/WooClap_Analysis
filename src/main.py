@@ -3,7 +3,6 @@ import shutil
 
 from exercises.exercise_1 import run_exercise_1
 from exercises.exercise_2_part_1 import run_exercise_2
-from exercises.exercise_2_part_2 import run_exercise_2_part_2
 
 def prepare_out_folder(out_folder_path):
     # make sure out folder is empty before writing the parquet file
